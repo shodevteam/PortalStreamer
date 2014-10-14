@@ -1,0 +1,158 @@
+@CHARSET "ISO-8859-1";
+
+/* html { 
+  background: url(../../images/1.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+.headerFontStyle {
+	font-weight: bolder;
+	font-family: Verdana, sans-serif;
+}
+
+/* Important required because row */
+.ui-datatable-odd {
+	background-color: lightgray !important;
+	background-position-y: -1400px; /* IE7 hack */
+}
+
+.right {
+	text-align: right;
+	margin-left: 90%;
+}
+
+body {
+	min-width:1200px;
+	font-size: 10px;
+	background-color: #000000;
+	font-family: Tahoma, Geneva, sans-serif;
+	background-image: none;
+	margin:0 auto;
+}
+
+.vodFormStyle {
+	color: #FF0000;
+	font-size: 10px;
+	background-color: #000000;
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+	background-image: none
+}
+
+.requestFormStyle {
+	color: #000000;
+	font-size: 14px;
+	background-color: #000000;
+	border-left-color: #000000;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+	background-image: none
+}
+
+.blackBackGroundStyle {
+	color: #000000;
+	background-color: #000000;
+	border-left-color: #000000;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	background-image: none;
+	padding-left: 1px;
+	padding-right: 1px"
+}
+
+.reportCommandPanelGridStyle td {
+	vertical-align: bottom;
+	color: #FFFFFF;
+	font-style: normal;
+	font-size: 11px;
+	background-color: #D20000;
+	background-image: none; 
+	font-family: Verdana, Arial, Sans-Serif;
+	border-left-color: D20000;
+	border-top-color: D20000;
+	border-right-color: D20000;
+	border-bottom-color: D20000
+}
+
+.reportBannerPanelGridStyle {
+	vertical-align: bottom;
+	font-style: normal;
+	font-size: 11px;
+	background-color: #000000;
+	background-image: none; 
+	font-family: Verdana, Arial, Sans-Serif;
+	font-weight: bold
+}
+
+.PanelGridvLignBottom td {
+	vertical-align: bottom;
+}
+
+.PanelGridvLignTop td {
+	vertical-align: top;
+	text-align: left;
+}
+
+.aLignTop {
+	vertical-align: top;
+}
+
+.PanelGridCol1 {
+	width: 16%; 
+    text-align: right;  
+}
+
+.PanelGridCol2 {
+	width: 84%; 
+    text-align: left;  
+}
+
+
+.PanelGridvLignRightBottom td {
+	margin-bottom: 0px;
+	vertical-align: bottom;
+	background-image: none; 
+	text-align: right;
+	color: #FFFFFF;
+}
+
+.reportBlackPanelStyle {
+	background-color: #000000;
+	vertical-align: bottom;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-image: none;
+}
+
+.reportRedCommandPanelStyle {
+	color: #FFFFFF; 
+	vertical-align: bottom;
+	background-color: #D20000;
+	border-left-color: #000000;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	background-image: none
+}
+
+.reportRedPanelStyle {
+	color: #000000;
+	background-color: #D20000;
+	vertical-align: bottom;
+	border-left-color: #000000;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	background-image: none
+}
+
+.ui-editable-column-delete {
+   background-image: url(./images/delete.png)
+}

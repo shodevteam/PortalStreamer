@@ -1,0 +1,7 @@
+video_folder=E\:/work/video
+video_player_prefix=src\=http://129.228.137.0:1935/StreamPortal/
+#video_folder=/mnt/video
+#video_player_prefix=src\=http://10.99.147.181:1935/StreamPortal/
+video_player_suffix=/manifest.f4m
+file_filter=mp4,mov
+

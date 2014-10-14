@@ -1,0 +1,50 @@
+<?page title="Log in" contentType="text/html;charset=UTF-8"?>
+<?link rel="icon" type="image/x-icon" href="/images/sho.ico"?>
+<zk>
+	<hbox self="@define(content)" vflex="1" hflex="1" align="center"
+		pack="center" spacing="0px" style="background:#B8D335">
+		<vlayout>
+			<vbox align="center" pack="center">
+				<image src="/images/streaming_portal_title.png" />
+				<label value="&#160;"/>
+				<window id="loginWin"
+					apply="com.sho.streamportal.security.LoginController"
+					title="Log in with your CBS network Id" border="normal"
+					hflex="min">
+					<vbox hflex="min" align="center">
+						<grid hflex="min">
+							<columns>
+								<column hflex="min" align="right" />
+								<column />
+							</columns>
+							<rows>
+								<row>
+									User Id 
+									<textbox id="userName"
+										placeholder="Enter User Id" width="200px" 
+										forward="onOK=login.onClick"/>
+								</row>
+								<row>
+									Password 
+									<textbox id="passWord"
+										type="password" placeholder="Enter Password" width="200px" 
+										forward="onOK=login.onClick"/>
+								</row>
+								<row>
+									Domain 
+									<textbox id="domain" type="text"
+										value="CBS" width="200px" placeholder="Enter Domain" 
+										forward="onOK=login.onClick">
+									</textbox>
+								</row>
+							</rows>
+						</grid>
+						<label id="msg" sclass="warn" value="&#160;"
+							style="color:red;font-size:10px;" visible="false" />
+						<button id="login" label="Login" />
+					</vbox>
+				</window>
+			</vbox>
+		</vlayout>
+	</hbox>
+</zk>
